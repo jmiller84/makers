@@ -1,0 +1,18 @@
+List of userful termianl commands
+
+pwd   - Print Working Directory (shows which directory (folder) you are currently in.
+ls   - shows a list of the files and folders in the current directory.
+..   - moves back one directory
+dotfiles   - hidden files are displayed in the terminal with a . before the file name
+ls -A  - shows all hidden files within a folder
+ls -l   -shows all files in long format e.g. date last modified, size etc.
+ls -lA - shows long format of all files including hidden files.
+touch <filename>   - creates a new file with the given filename.
+mkdir <Directory Name>   - creates new directory.
+rmdir <Directory Name>   -removes directory (will only delete empty directories)
+rm <filename>   -removes file
+rm -r <Directory Name>   -removes all files within a directory and removes directory
+cp <filename> <new filename>   - makes a copy of the first file with the name of the second file
+mv <filename> ../<filename>   - mv moves a file we first specify the filename and then the new location. in this case .. which is the parent directory.
+mv <filename> <new filename>   - we can also use mv to rename a file by moving it to its current location but specifying a new filename. 
+man ls  - gives the manual for a given command in this example it is used to give info on how the ls command is used.
