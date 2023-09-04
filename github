@@ -1,0 +1,9 @@
+
+commit   - uploads of files that act as check points you can revert back too.
+
+; git add gitText   -add files to the saging area in this case we are adding the file gitText, 
+
+; git commit -m 'First commit'   - commit everything in staging area. Saves a new checkpoint
+
+git log  - shwos a log of recent changes
+
