@@ -5,5 +5,22 @@ commit   - uploads of files that act as check points you can revert back too.
 
 ; git commit -m 'First commit'   - commit everything in staging area. Saves a new checkpoint
 
-git log  - shwos a log of recent changes
+git log  - shows a log of recent changes
 
+
+Git workflow
+
+
+So, let's sum up the steps we've done so far:
+
+We created a folder for a new project
+We initialised a repository inside it
+We created some files
+We added them to the staging area
+We committed them
+We created a repo on GitHub
+We created a remote called "origin" pointing to GitHub
+We pushed the code to the origin
+Whenever you are starting work on a new project, follow these steps. Create a new repository (actually, it doesn't matter where you create it first, you can try creating it first on GitHub and then locally). Create a remote pointing to GitHub. Commit a few changes, regularly push them to GitHub.
+
+You need to be in the directory where the repository is in order to push your data to GitHub. When you do git push or a similar command, git applies it to the directory you are in, so if you're in a wrong directory you won't get the results you expect.
