@@ -7,6 +7,8 @@ commit   - uploads of files that act as check points you can revert back too.
 
 git log  - shows a log of recent changes
 
+q   - exit git log
+
 
 Git workflow
 
@@ -24,3 +26,31 @@ We pushed the code to the origin
 Whenever you are starting work on a new project, follow these steps. Create a new repository (actually, it doesn't matter where you create it first, you can try creating it first on GitHub and then locally). Create a remote pointing to GitHub. Commit a few changes, regularly push them to GitHub.
 
 You need to be in the directory where the repository is in order to push your data to GitHub. When you do git push or a similar command, git applies it to the directory you are in, so if you're in a wrong directory you won't get the results you expect.
+
+
+File organisation
+
+
+You already know that you should have a separate directory initialised as a git repo for every project. It's convenient to have a separate directory for all projects you'll have. For example, you can create a Projects directory in your home directory:
+
+; mkdir ~/Projects
+
+Then when you need to start a new project, create a new folder inside it:
+
+; cd ~/Projects
+; mkdir code-practice
+; cd code-practice
+
+Then initialise it and add a README file:
+
+; git init
+; echo "Introductory Exercises" > README
+; git add README
+; git commit -m "Initial commit"
+
+If you then need to work with another project you created before, move to that directory:
+
+; cd ~/Projects/command-line-practice
+
+and then do the same there: some changes, commits and pushes to GitHub.
+
